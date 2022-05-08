@@ -1,12 +1,13 @@
 <script setup lang="ts">
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import HelloWorld from './components/HelloWorld.vue'
+import CoffeeUpdate from './components/CoffeeUpdate.vue'
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <img
+    alt="logo"
+    src="https://res.cloudinary.com/hinari-s-cafe/image/upload/c_scale,w_400/v1647669519/logo_gcanuk.png"
+  />
+  <CoffeeUpdate />
 </template>
 
 <style>
